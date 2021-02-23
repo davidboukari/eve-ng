@@ -1,6 +1,6 @@
 # eve-ng
 
-Create the env
+## Create the env eve-ng VM
 ```
 download ovf https://www.eve-ng.net/index.php/download/#DL-COMM
 
@@ -13,10 +13,20 @@ Set up the env
 Power Off the server
 Create a template from this machine
 Deploy a VM from this template
+```
+_____________________________________
+## WEBUI access
+* http://... (default admin / eve)
 
-Go to the WEBUI
-http://... (default admin / eve)
+_____________________________________
+## ssh access
+```
+ssh root@eveIP
+```
 
+_____________________________________
+# Create a Template image
+```
 ssh root@eveIP
 cd /opt/unetlab/addons/qemu
 mkdir linux-rtr
