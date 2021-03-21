@@ -119,7 +119,8 @@ file format: qcow2
 virtual size: 10G (10737418240 bytes)
 disk size: 9.2G
 cluster_size: 65536
-    
+
+# qemu resize the disk
 $ qemu-img resize /opt/unetlab/tmp/0/405d54df-5790-4b61-b65b-af5a09ed80c9/6/hda.qcow2 +10G    
     
 $ qemu-img info /opt/unetlab/tmp/0/405d54df-5790-4b61-b65b-af5a09ed80c9/6/hda.qcow2
@@ -135,6 +136,7 @@ d 2
 n
 2
 partprobe
+
 # extend the physical volume
 pvresize /dev/sda2
   Physical volume "/dev/sda2" changed
