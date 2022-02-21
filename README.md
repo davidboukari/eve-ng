@@ -25,6 +25,11 @@ ssh root@eveIP
 ```
 
 _____________________________________
+## License request
+* On the menu Licensing -> License Request -> Copy the datas like https://www.eve-ng.net/index.php/buy/
+* Go to  https://www.eve-ng.net/index.php/buy/ then click "Buy Now" 
+
+_____________________________________
 # Create a Template image
 ```
 ssh root@eveIP
