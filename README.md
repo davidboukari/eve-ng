@@ -59,6 +59,7 @@ total 998M
 Create a new lab
 Add a network Management(Cloud0)
 Add a node linux with image linux-rtr
+select console vnc
 Boot the VM
 if it is centos 8 setup repo url: http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
 if it is centos 7 setup repo url: http://mirror.centos.org/centos/7/os/x86_64/
