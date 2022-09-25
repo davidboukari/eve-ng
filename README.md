@@ -199,3 +199,28 @@ data blocks changed from 2096128 to 4193280
 
 ```
 
+
+## Increase eve-ng server disk size
+* Increase disk on vmware
+* ssh on eve-ng server
+```
+# Resize pv size
+root@eve-ng:~# pvresize /dev/sdc
+  Physical volume "/dev/sdc" changed
+  1 physical volume(s) resized / 0 physical volume(s) not resized
+  
+root@eve-ng:~# pvdisplay /dev/sdc
+  --- Physical volume ---
+  PV Name               /dev/sdc
+  VG Name               eve-ng-vg
+  PV Size               <200.00 GiB / not usable 3.00 MiB
+  Allocatable           yes
+  PE Size               4.00 MiB
+  Total PE              51199
+  Free PE               25600
+  Allocated PE          25599
+  PV UUID               5kFfI9-DpFc-y3IH-IU5v-MYqE-EMN4-11R9ce
+```
+
+
+```
